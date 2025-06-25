@@ -593,7 +593,7 @@ export default function Home() {
               <div className="absolute -inset-1 bg-gradient-to-r from-[#9F6BFF] to-[#6B48FF] rounded-md blur-md opacity-80"></div>
               <Button
                 asChild
-                className="relative bg-gradient-to-r from-[#9F6BFF] to-[#6B48FF] hover:opacity-90 text-white px-8 py-6 text-lg rounded-md transition-all duration-300 shadow-[0_0_20px_rgba(159,107,255,0.7)]"
+                className="relative bg-gradient-to-r from-[#9F6BFF] to-[#6B48FF] hover:opacity-90 text-white px-4 py-3 sm:px-6 sm:py-4 md:px-8 md:py-5 text-base sm:text-md md:text-lg rounded-md transition-all duration-300 shadow-[0_0_20px_rgba(159,107,255,0.7)]"
               >
                 <Link href="/booking">
                   {t.hero.primaryCta}
@@ -645,7 +645,7 @@ export default function Home() {
               <div className="absolute -inset-1 bg-gradient-to-r from-[#9F6BFF] to-[#6B48FF] rounded-md blur-md opacity-80"></div>
               <Button
                 asChild
-                className="relative bg-gradient-to-r from-[#9F6BFF] to-[#6B48FF] hover:opacity-90 text-white px-8 py-6 text-lg rounded-md transition-all duration-300 shadow-[0_0_20px_rgba(159,107,255,0.7)]"
+                className="relative bg-gradient-to-r from-[#9F6BFF] to-[#6B48FF] hover:opacity-90 text-white px-4 py-3 sm:px-6 sm:py-4 md:px-8 md:py-5 text-base sm:text-md md:text-lg rounded-md transition-all duration-300 shadow-[0_0_20px_rgba(159,107,255,0.7)]"
               >
                 <Link href="/booking">
                   {t.hero.primaryCta}
@@ -862,7 +862,7 @@ export default function Home() {
                     <div className="absolute -inset-1 bg-gradient-to-r from-[#9F6BFF] to-[#6B48FF] rounded-md blur-md opacity-80"></div>
                     <Button
                       asChild
-                      className="relative bg-gradient-to-r from-[#9F6BFF] to-[#6B48FF] hover:opacity-90 text-white px-8 py-6 text-lg rounded-md transition-all duration-300 shadow-[0_0_20px_rgba(159,107,255,0.7)]"
+                      className="relative bg-gradient-to-r from-[#9F6BFF] to-[#6B48FF] hover:opacity-90 text-white px-4 py-3 sm:px-6 sm:py-4 md:px-8 md:py-5 text-base sm:text-md md:text-lg rounded-md transition-all duration-300 shadow-[0_0_20px_rgba(159,107,255,0.7)]"
                     >
                       <Link href="/booking">
                         {t.finalCta.cta}
