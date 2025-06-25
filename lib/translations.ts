@@ -29,7 +29,7 @@ export const translations = {
 
     // Process Section
     process: {
-      badge: "The Process",
+      badge: "🔄 The Process",
       title: "How It Works: Your Path to Business Growth",
       subtitle: "A proven, systematic approach to filling your calendar with qualified meetings",
       step1Title: "Short Strategy Call",
@@ -109,7 +109,7 @@ export const translations = {
 
     // Offer Section
     offer: {
-      badge: "The Offer",
+      badge: "🎯 The Offer",
       title: "Scale",
       titleHighlight: "Without Overhead",
       subtitle: "We're your virtual SDR team. no new hires or tools needed",
@@ -279,7 +279,7 @@ export const translations = {
 
     // Process Section
     process: {
-      badge: "Le Processus",
+      badge: "🔄 Le Processus",
       title: "Comment Ça Marche : Votre Chemin vers la Croissance de votre Entreprise",
       subtitle: "Une approche systématique éprouvée pour remplir votre calendrier de réunions qualifiées",
       step1Title: "Appel Stratégique Court",
@@ -362,7 +362,7 @@ export const translations = {
 
     // Offer Section
     offer: {
-      badge: "L'Offre",
+      badge: "🎯 L'Offre",
       title: "Évoluez",
       titleHighlight: "Sans Frais Généraux",
       subtitle: "Nous sommes votre équipe SDR virtuelle, aucune nouvelle embauche ou outil nécessaire",
