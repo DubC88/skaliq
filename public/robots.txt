@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Block specific directories if needed
+# Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://skaliq.com/sitemap.xml
