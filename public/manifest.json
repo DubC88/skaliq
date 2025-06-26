@@ -1,0 +1,31 @@
+{
+  "name": "SkalIQ - B2B Sales Pipeline Growth",
+  "short_name": "SkalIQ",
+  "icons": [
+    {
+      "src": "/assets/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/favicon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#5bbad5",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/",
+  "description": "SkalIQ helps B2B companies get 3 qualified meetings in 30–45 days, guaranteed. 5–10× ROI on your outbound spend or we work for free."
+}
