@@ -8,12 +8,11 @@ import { LanguageProvider } from "@/lib/language-context"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Skaliq - B2B Sales Pipeline Growth",
-  description: "SkalIQ helps B2B companies get 3 qualified meetings in 30–45 days, guaranteed. 5–10× ROI on your outbound spend or we work for free.",
-  generator: 'v0.dev',
+  title: "SkalIQ | B2B Sales Pipeline Growth | AI Sales System Agency",
+  description: "SkalIQ helps B2B companies get - qualified meetings in 30–45 days, guaranteed. 5–10× ROI on your outbound spend or we work for free.",
   openGraph: {
-    title: "Skaliq - B2B Sales Pipeline Growth",
-    description: "SkalIQ helps B2B companies get 3 qualified meetings in 30–45 days, guaranteed. 5–10× ROI on your outbound spend or we work for free.",
+    title: "SkalIQ - B2B Sales Pipeline Growth",
+    description: "SkalIQ helps B2B companies get 5-10 qualified meetings in 30–45 days, guaranteed. 5–10× ROI on your outbound spend or we work for free.",
     url: "https://skaliq.com",
     siteName: "SkalIQ",
     images: [
@@ -64,7 +63,23 @@ export default function RootLayout({
               "name": "SkalIQ",
               "url": "https://skaliq.com",
               "logo": "https://skaliq.com/assets/logo-skaliq-1200x630.png",
-              "description": "SkalIQ helps B2B companies get 3 qualified meetings in 30–45 days, guaranteed. 5–10× ROI on your outbound spend or we work for free."
+              "description": "SkalIQ helps B2B companies get 5-10 qualified meetings in 30–45 days, guaranteed. 5–10× ROI on your outbound spend or we work for free."
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "SkalIQ",
+              "url": "https://skaliq.com",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://skaliq.com/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
             })
           }}
         />
