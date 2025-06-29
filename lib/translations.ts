@@ -13,12 +13,12 @@ export const translations = {
     hero: {
       badge: "Includes 14-Day Deliverability Warm-Up",
       title: "Get",
-      titleHighlight: "3 Qualified Meetings",
+      titleHighlight: "5-10 Qualified Meetings",
       titleEnd: "in 44 Days",
       subtitle:
         "We help B2B businesses grow revenue predictably by filling your pipeline with high-value decision-maker meetings.",
       primaryCta: "Book Your Free Strategy Call",
-      guarantee: "3-5 meetings by Day 44, guaranteed",
+      guarantee: "5-10 meetings by Day 44, guaranteed",
       dashboardTitle: "Pipeline Growth",
       campaignProgress: "Campaign Progress",
       recentMeetings: "Recent Meetings",
@@ -36,7 +36,7 @@ export const translations = {
       step1Desc: "You share your goals, ideal customer profile, and offer. We craft the plan.",
       step2Title: "Launch in 72 Hours",
       step2Desc: "We build your targeted list, write custom outreach, and deploy the campaign.",
-      step3Title: "3 Qualified Meetings in 30–45 Days",
+      step3Title: "5-10 Qualified Meetings in 30–45 Days",
       step3Desc: "We book meetings with decision‑makers—or we keep working for free.",
       stepLabel: "Step",
     },
@@ -263,12 +263,12 @@ export const translations = {
     hero: {
       badge: "Inclut un Échauffement de Délivrabilité de 14 Jours",
       title: "Obtenez",
-      titleHighlight: "3 Réunions Qualifiées",
+      titleHighlight: "5-10 Réunions Qualifiées",
       titleEnd: "en 44 Jours",
       subtitle:
         "Nous aidons les entreprises B2B à augmenter leurs revenus de manière prévisible en remplissant votre pipeline avec des réunions de décideurs de grande valeur.",
       primaryCta: "Réservez Votre Appel Stratégique Gratuit",
-      guarantee: "3-5 réunions d'ici le jour 44, garanti",
+      guarantee: "5-10 réunions d'ici le jour 44, garanti",
       dashboardTitle: "Croissance du Pipeline",
       campaignProgress: "Progrès de la Campagne",
       recentMeetings: "Réunions Récentes",

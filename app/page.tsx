@@ -29,6 +29,7 @@ import { useLanguage } from "@/lib/language-context"
 import Link from "next/link"
 import Image from "next/image"
 import { CookieConsent } from "@/components/cookie-consent"
+import { LogoScroller } from "@/components/logo-scroller"
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -378,6 +379,9 @@ export default function Home() {
             </motion.div>
           </motion.div>
         </section>
+
+        {/* Logo Scroller Section */}
+        <LogoScroller />
 
         {/* How It Works Section */}
         <section id="process" ref={processRef} className="py-20 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
