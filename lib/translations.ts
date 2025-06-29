@@ -215,6 +215,11 @@ export const translations = {
     common: {
       bookStrategyCall: "Book Strategy Call",
     },
+
+    // Logo Scroller
+    logoScroller: {
+      title: "Build with the technology you love",
+    },
   },
 
   fr: {
@@ -466,7 +471,12 @@ export const translations = {
 
     // Common
     common: {
-      bookStrategyCall: "Réserver Appel Stratégique",
+      bookStrategyCall: "Réserver un Appel Stratégique",
+    },
+
+    // Logo Scroller
+    logoScroller: {
+      title: "Construit avec la technologie que vous aimez",
     },
   },
 } as const
