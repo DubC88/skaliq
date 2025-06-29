@@ -119,7 +119,7 @@ export const translations = {
       feature2Desc: "Custom messaging that speaks directly to your ideal customer's pain points",
       feature3Title: "Weekly Performance Reports",
       feature3Desc: "Transparent metrics showing open rates, replies, and booked meetings",
-      guarantee: "3-5 qualified meetings by Day 44, guaranteed",
+      guarantee: "5-10 qualified meetings by Day 44, guaranteed",
     },
 
     // Final CTA Section
@@ -127,7 +127,7 @@ export const translations = {
       urgency: "Only 3 founding slots remain—claim yours before they're gone",
       title: "Ready to Fill Your Calendar With Perfect Prospects?",
       subtitle:
-        "It all starts with a quick 15-minute strategy session. We'll audit your email/domain setup, define your ICP, and map out a plan to get 3-5 decision-maker meetings on your calendar by Day 44—no fluff, no delays.",
+        "It all starts with a quick 15-minute strategy session. We'll audit your email/domain setup, define your ICP, and map out a plan to get 5-10 decision-maker meetings on your calendar by Day 44—no fluff, no delays.",
       cta: "Book My Free Strategy Call",
       testimonial:
         '"The quality of leads we received was exceptional. These weren\'t just any meetings—they were with decision-makers actively looking for solutions."',
@@ -166,7 +166,7 @@ export const translations = {
       title: "Book Your",
       titleHighlight: "Free Strategy Call",
       subtitle:
-        "Ready to transform your outbound strategy? Let's discuss how we can get you 3-5 qualified meetings in the next 44 days.",
+        "Ready to transform your outbound strategy? Let's discuss how we can get you 5-10 qualified meetings in the next 44 days.",
       coverTitle: "What We'll Cover in Your Strategy Call:",
       step1: "Email Setup Audit",
       step1Desc: "Review deliverability",
@@ -239,11 +239,11 @@ export const translations = {
       items: [
         {
           question: "Qu'inclut exactement votre service ?",
-          answer: "Notre service comprend l'authentification et l'échauffement des emails, des campagnes de prospection hyper-personnalisées, la constitution de listes de prospects ciblées et des rapports de performance hebdomadaires. Nous gérons tout, de la configuration technique à la stratégie de messagerie, avec l'objectif de réserver 3-5 réunions qualifiées avec des décideurs d'ici le jour 44."
+          answer: "Notre service comprend l'authentification et l'échauffement des emails, des campagnes de prospection hyper-personnalisées, la constitution de listes de prospects ciblées et des rapports de performance hebdomadaires. Nous gérons tout, de la configuration technique à la stratégie de messagerie, avec l'objectif de réserver 5-10réunions qualifiées avec des décideurs d'ici le jour 44."
         },
         {
           question: "Combien de temps avant de voir des résultats ?",
-          answer: "La plupart des clients commencent à voir les premiers résultats dans les 30-45 jours. Notre processus comprend une période d'échauffement des emails de 14 jours, suivie de campagnes de prospection stratégiques. Nous garantissons 3-5 réunions qualifiées d'ici le jour 44, ou nous continuons à travailler gratuitement jusqu'à ce que nous les obtenions."
+          answer: "La plupart des clients commencent à voir les premiers résultats dans les 30-45 jours. Notre processus comprend une période d'échauffement des emails de 14 jours, suivie de campagnes de prospection stratégiques. Nous garantissons 5-10 réunions qualifiées d'ici le jour 44, ou nous continuons à travailler gratuitement jusqu'à ce que nous les obtenions."
         },
         {
           question: "Dois-je fournir ma propre liste de prospects ?",
@@ -378,7 +378,7 @@ export const translations = {
       feature2Desc: "Messages personnalisés qui parlent directement aux points de douleur de votre client idéal",
       feature3Title: "Rapports de Performance Hebdomadaires",
       feature3Desc: "Métriques transparentes montrant les taux d'ouverture, réponses et réunions réservées",
-      guarantee: "3-5 réunions qualifiées d'ici le jour 44, garanti",
+      guarantee: "5-10 réunions qualifiées d'ici le jour 44, garanti",
     },
 
     // Final CTA Section
@@ -386,7 +386,7 @@ export const translations = {
       urgency: "Seulement 3 places fondateurs restent—réclamez la vôtre avant qu'elles ne disparaissent",
       title: "Prêt à Remplir Votre Calendrier avec des Prospects Parfaits ?",
       subtitle:
-        "Tout commence par une session stratégique rapide de 15 minutes. Nous auditerons votre configuration email/domaine, définirons votre ICP et établirons un plan pour obtenir 3-5 réunions de décideurs sur votre calendrier d'ici le jour 44—sans blabla, sans délais.",
+        "Tout commence par une session stratégique rapide de 15 minutes. Nous auditerons votre configuration email/domaine, définirons votre ICP et établirons un plan pour obtenir 5-10 réunions de décideurs sur votre calendrier d'ici le jour 44—sans blabla, sans délais.",
       cta: "Réservez Mon Appel Stratégique Gratuit",
       testimonial:
         "\"La qualité des prospects que nous avons reçus était exceptionnelle. Ce n'étaient pas n'importe quelles réunions—c'étaient avec des décideurs cherchant activement des solutions.\"",
@@ -425,7 +425,7 @@ export const translations = {
       title: "Réservez Votre",
       titleHighlight: "Appel Stratégique Gratuit",
       subtitle:
-        "Prêt à transformer votre stratégie de prospection ? Discutons de comment nous pouvons vous obtenir 3-5 réunions qualifiées dans les 44 prochains jours.",
+        "Prêt à transformer votre stratégie de prospection ? Discutons de comment nous pouvons vous obtenir 5-10 réunions qualifiées dans les 44 prochains jours.",
       coverTitle: "Ce Que Nous Couvrirons dans Votre Appel Stratégique :",
       step1: "Audit de Configuration Email",
       step1Desc: "Révision de la délivrabilité",

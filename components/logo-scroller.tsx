@@ -29,10 +29,10 @@ export function LogoScroller() {
   const velocities = [3, -3]
 
   return (
-    <div className="w-full py-16 bg-transparent border-y border-[#ffffff10]">
+    <div className="w-full py-24 pb-32 bg-transparent border-y border-[#ffffff10]">
       <div className="max-w-7xl mx-auto">
-        <h3 className="text-center text-xl md:text-2xl font-semibold mb-10 text-white/90">{t.logoScroller.title}</h3>
-        <div className="flex flex-col space-y-16">
+        <h3 className="text-center text-xl md:text-2xl lg:text-[1.5rem] font-semibold mb-16 mt-6 text-purple-400">{t.logoScroller.title}</h3>
+        <div className="flex flex-col space-y-10">
           {velocities.map((velocity, index) => (
             <ScrollVelocity key={index} velocity={velocity} movable={true}>
               {logos.map((logo, logoIndex) => (
