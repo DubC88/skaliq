@@ -30,6 +30,9 @@ import Link from "next/link"
 import Image from "next/image"
 import { CookieConsent } from "@/components/cookie-consent"
 import { LogoScroller } from "@/components/logo-scroller"
+import { RoiCard } from "@/components/roi-card"
+import { SolutionStatsCard } from "@/components/solution-stats-card"
+import { ProblemStatsCard } from "@/components/problem-stats-card"
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -433,7 +436,7 @@ export default function Home() {
         </section>
 
         {/* Problem Section */}
-        <section id="problem" ref={problemRef} className="py-20 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
+        <section id="problem" ref={problemRef} className="py-20 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto mb-36">
           <motion.div
             className="text-center mb-16"
             initial="hidden"
@@ -491,19 +494,12 @@ export default function Home() {
 
             {/* Statistics */}
             <motion.div variants={fadeIn} className="text-center">
-              <div className="relative">
-                <div className="absolute -inset-0.5 bg-gradient-to-r from-red-500/20 to-red-400/20 rounded-2xl blur-xl"></div>
-                <div className="relative bg-[#0A0A18] border border-[#ff000020] rounded-2xl overflow-hidden">
-                  <div className="bg-[#050509] rounded-xl p-12">
-                    <div className="flex items-center justify-center mb-6">
-                      <AlertTriangle className="w-12 h-12 text-red-400" />
-                    </div>
-                    <div className="text-8xl font-bold text-red-400 mb-4">1%</div>
-                    <p className="text-xl text-gray-300">{t.problem.statTitle}</p>
-                    <p className="text-sm text-gray-500 mt-4 italic">{t.problem.statQuote}</p>
-                  </div>
-                </div>
-              </div>
+              <ProblemStatsCard
+                icon={<AlertTriangle className="w-12 h-12 text-red-400" />}
+                percentage="1%"
+                title={t.problem.statTitle}
+                quote={t.problem.statQuote}
+              />
             </motion.div>
           </motion.div>
         </section>
@@ -541,19 +537,12 @@ export default function Home() {
           >
             {/* Statistics */}
             <motion.div variants={fadeIn} className="text-center">
-              <div className="relative">
-                <div className="absolute -inset-0.5 bg-gradient-to-r from-[#9F6BFF] to-[#6B48FF] rounded-2xl blur-xl opacity-30"></div>
-                <div className="relative bg-[#0A0A18] border border-[#9F6BFF40] rounded-2xl overflow-hidden">
-                  <div className="bg-[#050509] rounded-xl p-12">
-                    <div className="flex items-center justify-center mb-6">
-                      <CheckCircle className="w-12 h-12 text-[#9F6BFF]" />
-                    </div>
-                    <div className="text-8xl font-bold text-[#9F6BFF] mb-4">20%</div>
-                    <p className="text-xl text-gray-300">{t.solution.statTitle}</p>
-                    <p className="text-sm text-gray-400 mt-4 italic">{t.solution.statQuote}</p>
-                  </div>
-                </div>
-              </div>
+              <SolutionStatsCard
+                icon={<CheckCircle className="w-12 h-12 text-[#9F6BFF]" />}
+                percentage="20%"
+                title={t.solution.statTitle}
+                quote={t.solution.statQuote}
+              />
             </motion.div>
 
             {/* Solutions List */}
@@ -588,7 +577,7 @@ export default function Home() {
         </section>
 
         {/* Solution CTA */}
-        <div className="px-4 md:px-8 lg:px-16 max-w-7xl mx-auto -mt-8 mb-12">
+        <div className="px-4 md:px-8 lg:px-16 max-w-7xl mx-auto -mt-8 mb-36">
           <div className="flex justify-center">
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-to-r from-[#9F6BFF] to-[#6B48FF] rounded-md blur-md opacity-80"></div>
@@ -604,6 +593,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+        
+        {/* Spacer */}
+        <div className="h-20"></div>
 
         {/* ROI Guarantee Section */}
         <section id="results" ref={roiRef} className="py-20 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
@@ -613,34 +605,19 @@ export default function Home() {
             animate={roiInView ? "visible" : "hidden"}
             variants={staggerContainer}
           >
-            <motion.div
-              variants={fadeIn}
-              className="inline-block px-4 py-1 rounded-full bg-[#9F6BFF20] border border-[#9F6BFF40] text-sm text-[#9F6BFF] mb-6"
-            >
-              {t.roi.badge}
-            </motion.div>
             <motion.div variants={fadeIn} className="max-w-3xl mx-auto">
-              <div className="relative">
-                <div className="absolute -inset-0.5 bg-gradient-to-r from-[#9F6BFF] to-[#6B48FF] rounded-2xl blur-xl opacity-30"></div>
-                <div className="relative bg-[#0A0A18] border border-[#ffffff10] rounded-2xl overflow-hidden">
-                  <div className="bg-[#050509] rounded-xl p-8 md:p-12 text-center">
-                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-                      {t.roi.title}{" "}
-                      <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#9F6BFF] to-[#6B48FF]">
-                        {t.roi.titleHighlight}
-                      </span>{" "}
-                      {t.roi.titleEnd}
-                    </h2>
-                    <p className="text-lg md:text-xl text-gray-300 leading-relaxed">{t.roi.subtitle}</p>
-                  </div>
-                </div>
-              </div>
+              <RoiCard 
+                title={t.roi.title}
+                titleHighlight={t.roi.titleHighlight}
+                titleEnd={t.roi.titleEnd}
+                subtitle={t.roi.subtitle}
+              />
             </motion.div>
           </motion.div>
         </section>
 
         {/* ROI CTA */}
-        <div className="px-4 md:px-8 lg:px-16 max-w-7xl mx-auto -mt-8 mb-12">
+        <div className="px-4 md:px-8 lg:px-16 max-w-7xl mx-auto -mt-8 mb-36">
           <div className="flex justify-center">
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-to-r from-[#9F6BFF] to-[#6B48FF] rounded-md blur-md opacity-80"></div>
@@ -656,6 +633,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+        
+        {/* Spacer */}
+        <div className="h-20"></div>
 
         {/* Founding Clients Program Section with Bento Grid */}
         <section className="py-20 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
@@ -722,6 +702,9 @@ export default function Home() {
             </div>
           </motion.div>
         </section>
+        
+        {/* Additional spacing */}
+        <div className="h-36"></div>
 
         {/* What You Get Section */}
         <section id="offer" ref={offerRef} className="py-20 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
@@ -818,17 +801,11 @@ export default function Home() {
             </motion.div>
           </motion.div>
 
-          <motion.div
-            className="mt-12 text-center"
-            initial={{ opacity: 0, y: 20 }}
-            animate={offerInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-            transition={{ delay: 0.6, duration: 0.6 }}
-          >
-            <div className="inline-block bg-[#9F6BFF20] px-6 py-3 rounded-full border border-[#9F6BFF40] text-[#9F6BFF] font-bold">
-              {t.offer.guarantee}
-            </div>
-          </motion.div>
+          {/* Guarantee badge removed */}
         </section>
+        
+        {/* Additional spacing */}
+        <div className="h-36"></div>
 
         {/* Final CTA Section */}
         <section id="cta" ref={ctaRef} className="py-20 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
@@ -838,8 +815,12 @@ export default function Home() {
             animate={ctaInView ? "visible" : "hidden"}
             variants={staggerContainer}
           >
-            <motion.div variants={fadeIn} className="text-red-400 text-sm font-semibold mb-2">
-              {t.finalCta.urgency}
+            <motion.div 
+              variants={fadeIn} 
+              className="inline-flex items-center justify-center bg-[#FF3A2D20] px-4 py-2 rounded-full border border-[#FF3A2D40] text-[#FF3A2D] font-bold mb-4 mx-auto"
+            >
+              <span className="mr-1">🔥</span>
+              <span>{t.finalCta.urgency}</span>
             </motion.div>
             <motion.h2 variants={fadeIn} className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
               {t.finalCta.title}
