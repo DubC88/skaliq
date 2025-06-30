@@ -18,7 +18,7 @@ export const translations = {
       subtitle:
         "We help B2B businesses grow revenue predictably by filling your pipeline with high-value decision-maker meetings.",
       primaryCta: "Book Your Free Strategy Call",
-      guarantee: "5-10 meetings by Day 44, guaranteed",
+      guarantee: "",
       dashboardTitle: "Pipeline Growth",
       campaignProgress: "Campaign Progress",
       recentMeetings: "Recent Meetings",

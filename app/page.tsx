@@ -321,10 +321,7 @@ export default function Home() {
                   </Button>
                 </div>
               </motion.div>
-              <motion.div variants={fadeIn} className="text-sm text-gray-400 flex items-center gap-2">
-                <Shield className="w-4 h-4 text-[#9F6BFF]" />
-                <span>{t.hero.guarantee}</span>
-              </motion.div>
+
             </div>
             <motion.div variants={fadeIn} className="relative">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-[#9F6BFF] to-[#6B48FF] rounded-2xl blur-xl opacity-20 animate-pulse"></div>
