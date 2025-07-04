@@ -90,10 +90,10 @@ export const translations = {
       title: "Founding Clients Program",
       titleHighlight: "(Only 3 Slots Available)",
       subtitle:
-        "We're partnering with just 3 founding clients this month—perfect for B2B teams who want rapid growth.",
+        "We're partnering with just 3 founding clients this month, perfect for B2B teams who want rapid growth.",
       slotsRemaining: "Only",
       slotsCount: "3 slots",
-      slotsText: "remain—won't reopen until next quarter.",
+      slotsText: "remain, won't reopen until next quarter.",
       feature1Title: "80% Founding Discount",
       feature1Desc: "Launchpad at $500/mo & Accelerator at $900/mo for your first 3 months.",
       feature2Title: "20% Permanent Discount",
@@ -124,10 +124,10 @@ export const translations = {
 
     // Final CTA Section
     finalCta: {
-      urgency: "Only 3 founding slots remain—claim yours before they're gone",
+      urgency: "Only 3 founding slots remain, claim yours before they're gone",
       title: "Ready to Fill Your Calendar With Perfect Prospects?",
       subtitle:
-        "It all starts with a quick 15-minute strategy session. We'll audit your email/domain setup, define your ICP, and map out a plan to get 5-10 decision-maker meetings on your calendar by Day 44—no fluff, no delays.",
+        "It all starts with a quick 15-minute strategy session. We'll audit your email/domain setup, define your ICP, and map out a plan to get 5-10 decision-maker meetings on your calendar by Day 44.",
       cta: "Book My Free Strategy Call",
       testimonial:
         '"The quality of leads we received was exceptional. These weren\'t just any meetings—they were with decision-makers actively looking for solutions."',
@@ -293,7 +293,7 @@ export const translations = {
       step2Desc:
         "Nous construisons votre liste ciblée, rédigeons la prospection personnalisée et déployons la campagne.",
       step3Title: "3 Réunions Qualifiées en 30-45 Jours",
-      step3Desc: "Nous réservons des réunions avec des décideurs—ou nous continuons à travailler gratuitement.",
+      step3Desc: "Nous réservons des réunions avec des décideurs, ou nous continuons à travailler gratuitement.",
       stepLabel: "Étape",
     },
 
@@ -348,10 +348,10 @@ export const translations = {
       title: "Programme Clients Fondateurs",
       titleHighlight: "(Seulement 3 Places Disponibles)",
       subtitle:
-        "Nous nous associons avec seulement 3 clients fondateurs ce mois-ci—parfait pour les équipes B2B qui veulent une croissance rapide",
+        "Nous nous associons avec seulement 3 clients fondateurs ce mois-ci, parfait pour les équipes B2B qui veulent une croissance rapide",
       slotsRemaining: "Seulement",
       slotsCount: "3 places",
-      slotsText: "restent—ne rouvrira pas avant le prochain trimestre.",
+      slotsText: "restent, ne rouvrira pas avant le prochain trimestre.",
       feature1Title: "80% de Remise Fondateur",
       feature1Desc: "Launchpad à 500$/mois et Accelerator à 900$/mois pour vos 3 premiers mois.",
       feature2Title: "20% de Remise Permanente",
@@ -383,10 +383,10 @@ export const translations = {
 
     // Final CTA Section
     finalCta: {
-      urgency: "Seulement 3 places fondateurs restent—réclamez la vôtre avant qu'elles ne disparaissent",
+      urgency: "Seulement 3 places fondateurs restent, réclamez la vôtre avant qu'elles ne disparaissent",
       title: "Prêt à Remplir Votre Calendrier avec des Prospects Parfaits ?",
       subtitle:
-        "Tout commence par une session stratégique rapide de 15 minutes. Nous auditerons votre configuration email/domaine, définirons votre ICP et établirons un plan pour obtenir 5-10 réunions de décideurs sur votre calendrier d'ici le jour 44—sans blabla, sans délais.",
+        "Tout commence par une session stratégique rapide de 15 minutes. Nous auditerons votre configuration email/domaine, définirons votre ICP et établirons un plan pour obtenir 5-10 réunions de décideurs sur votre calendrier d'ici le jour 44.",
       cta: "Réservez Mon Appel Stratégique Gratuit",
       testimonial:
         "\"La qualité des prospects que nous avons reçus était exceptionnelle. Ce n'étaient pas n'importe quelles réunions—c'étaient avec des décideurs cherchant activement des solutions.\"",
